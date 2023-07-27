@@ -1,21 +1,68 @@
 .hero-section {
-  height: calc(100vh - 57px);
+  height: calc(100vh - 60px);
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 25px;
+  .left-part {
+    display: grid;
+    align-items: center;
+    padding: 20px;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      font-family: "Raleway", sans-serif;
+      .subject {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 0px;
+        color: #1c1c1c;
+      }
+      .user-name {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 60px;
+        margin-bottom: 0px;
+        background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        .sub-heading {
+          font-size: 23px;
+        }
+      }
+      .user-headline {
+        color: gray;
+        font-size: 18px;
+      }
+      .more-about-btn{
+        padding: 15px 30px;
+        background-color: #1c1c1c;
+        color: #fff;
+        border-radius: 12px;
+      }
+    }
+  }
+
   .right-part {
     display: grid;
     justify-content: center;
     align-items: center;
     .profile-box {
-        height: 40vw;
-        width: 40vw;
-        position: relative;
+      height: 40vw;
+      width: 40vw;
+      position: relative;
+      left: 30px;
       .profile-image {
         height: 30vw;
         width: 30vw;
         border-radius: 50%;
         overflow: hidden;
+        border-radius: 50%;
+        box-shadow: 0 0 30px #ebe6e6;
         img {
           height: 100%;
           width: 100%;
