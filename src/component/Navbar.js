@@ -13,45 +13,54 @@ const Navbar = () => {
         <ul className="rj-links all-center">
           <li>
             <NavLink
-               className={`rj-item  ${({ isActive }) =>
-               isActive ? "active" : ""}`}
+              className={`rj-item  ${({ isActive }) =>
+                isActive ? "active" : ""}`}
               to={"/"}
             >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink className={`rj-item  ${({ isActive }) =>
-               isActive ? "active" : ""}`} to={"/project"}>
+            <NavLink
+              className={`rj-item  ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              to={"/project"}
+            >
               Project
             </NavLink>
           </li>
           <li>
-            <NavLink className={`rj-item  ${({ isActive }) =>
-               isActive ? "active" : ""}`} to={"/articles"}>
+            <NavLink
+              className={`rj-item  ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              to={"/articles"}
+            >
               Articles
             </NavLink>
           </li>
           <li>
-            <NavLink className={`rj-item  ${({ isActive }) =>
-               isActive ? "active" : ""}`} to={"/contact"}>
+            <NavLink
+              className={`rj-item  ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              to={"/contact"}
+            >
               Contact
             </NavLink>
           </li>
           <li>
-            <NavLink className={`rj-item  ${({ isActive }) =>
-               isActive ? "active" : ""}`} to={"/about"}>
+            <NavLink
+              className={`rj-item  ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              to={"/about"}
+            >
               About
             </NavLink>
           </li>
         </ul>
       </div>
-    <div>
-    <Link className="rj-hire-btn">
-        Hire Me
-    </Link>
-    </div>
-
+      <div>
+        <Link className="rj-hire-btn">Hire Me</Link>
+      </div>
     </nav>
   )
 }
