@@ -1,0 +1,1 @@
+export const Profile = "https://images.pexels.com/photos/2340978/pexels-photo-2340978.jpeg";

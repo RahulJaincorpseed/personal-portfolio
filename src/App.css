@@ -27,6 +27,10 @@ font-family: 'Raleway', sans-serif; */
   align-items: center;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 ul{
   margin-bottom: 0px;
 }
