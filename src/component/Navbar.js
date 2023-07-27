@@ -5,7 +5,7 @@ import "./Navbar.scss"
 const Navbar = () => {
   return (
     <nav className="rj-navbar all-between">
-      <div className="rj-logo">
+      <div className="rj-logo all-center">
         <i class="fa-brands fa-codiepie"></i>
         <span>RJ</span>
       </div>
