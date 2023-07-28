@@ -1,5 +1,5 @@
 .hero-section {
-  height: calc(94vh - 60px);
+  min-height: calc(90vh - 60px);
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
