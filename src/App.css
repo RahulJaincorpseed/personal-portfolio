@@ -1,75 +1,70 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway:ital,wght@0,400;0,600;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway:ital,wght@0,400;0,600;1,400;1,500&display=swap");
 /* 
 font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;700&display=swap");
 
 /* font-family: 'Tajawal', sans-serif; */
 
 /* ++++++++++++ common classes  ++++++++++++++ */
 
-.all-center{
+.all-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.all-between{
+.all-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-ul{
+ul {
   margin-bottom: 0px;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-.section-padding{
+.section-padding {
   padding-top: 35px;
   padding-bottom: 35px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-
 /* ++++++++++++ common classes  ++++++++++++++ */
-
 
 /* common buttons heading  */
 
-.rj-hire-btn{
+.rj-hire-btn {
   padding: 12px 24px;
   background-color: #fff;
   color: #1c1c1c;
 }
 
-.rj-hire-btn:hover{
+.rj-hire-btn:hover {
   text-decoration: none;
   color: #1c1c1c;
 }
 
-.main-heading{
+.main-heading {
   text-align: center;
   font-size: 36px;
   background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
-

@@ -8,11 +8,21 @@ const HeroSection = () => {
     <div className="hero-section">
       <div className="left-part">
         <div className="content">
-        <h3 className="subject">Welcome to Amazing Place</h3>
-        <h2 className="user-name">Rahul Jain <span className="sub-heading">(Frontend Developer)</span></h2>
-        <p className="user-headline">only five centuries, but also the leap into electronic typesetting, only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-        <Link className="more-about-btn">More About Me<i class="fa-solid ml-2 fa-chevron-right"></i></Link>
+          <h3 className="subject">Welcome to Amazing Place</h3>
+          <h2 className="user-name">
+            Rahul Jain <span className="sub-heading">(Frontend Developer)</span>
+          </h2>
+          <p className="user-headline">
+            only five centuries, but also the leap into electronic typesetting,
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <Link className="more-about-btn">
+            More About Me<i class="fa-solid ml-2 fa-chevron-right"></i>
+          </Link>
         </div>
       </div>
       <div className="right-part">
