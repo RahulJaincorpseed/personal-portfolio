@@ -8,7 +8,6 @@ const MySkills = () => {
         <h3 className="main-heading">My Skills</h3>
         <div className="skills-item">
           <div className="ball-item">
-          
             <i class="fa-brands fa-github"></i>
             <p>Github</p>
           </div>
