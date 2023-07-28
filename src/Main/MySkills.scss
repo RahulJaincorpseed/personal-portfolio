@@ -1,3 +1,27 @@
 .skill-section{
-    background-color: red;
+    background-color: #fff;
+    .skills-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 40px 25px;
+        gap: 30px;
+        .ball-item{
+            height: 130px;
+            width: 130px;
+            border-radius: 50%;
+            border: 1px solid red;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            flex-direction: column;
+            gap: 5px;
+            i{
+                font-size: 50px;
+            }
+            // rgba(65, 88, 208, 1)
+            // rgba(200, 80, 192, 1)            
+        }
+    }
 }
