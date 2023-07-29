@@ -1,0 +1,18 @@
+.cer-card{
+    border: 2px solid red;
+    border-radius: 10px;
+    .cer-image{
+        height: 200px;
+        width: 100%;
+        padding: 15px;
+        overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .cer-details{
+        padding: 15px;
+    }
+}

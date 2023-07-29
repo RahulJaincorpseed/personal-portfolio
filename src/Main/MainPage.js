@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection"
 import MySkills from "./MySkills"
 import WorkExperience from "./WorkExperience"
 import Footer from "../component/Footer"
+import Certification from "./Certification"
 
 const MainPage = () => {
   return (
@@ -10,6 +11,7 @@ const MainPage = () => {
       <HeroSection />
       <MySkills />
       <WorkExperience />
+      <Certification />
     </div>
   )
 }
