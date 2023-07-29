@@ -4,6 +4,7 @@ import MySkills from "./MySkills"
 import WorkExperience from "./WorkExperience"
 import Footer from "../component/Footer"
 import Certification from "./Certification"
+import ContactUs from "./ContactUs"
 
 const MainPage = () => {
   return (
@@ -12,6 +13,7 @@ const MainPage = () => {
       <MySkills />
       <WorkExperience />
       <Certification />
+      <ContactUs />
     </div>
   )
 }
