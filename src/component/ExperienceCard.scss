@@ -11,23 +11,23 @@
   height: 230px;
   // overflow: hidden;
   .card-connector {
-    height: 40px;
-    width: 40px;
+    height: 7px;
+    width: 138px;
     background: -webkit-linear-gradient(105deg, #4158d0 60%, #c850c0 46%);
     position: absolute;
-    right: -20px;
-    top: -10px;
+    right: -104px;
+    top: 6px;
   }
 }
 .experience-card.left-card {
   right: 0;
   left: auto;
   .card-connector {
-    height: 40px;
-    width: 40px;
+    height: 7px;
+    width: 138px;
     background: -webkit-linear-gradient(105deg, #4158d0 60%, #c850c0 46%);
     position: absolute;
-    left: -20px;
-    top: -10px;
+    left: -104px;
+    top: 2px;
   }
 }
