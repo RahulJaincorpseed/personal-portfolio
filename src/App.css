@@ -17,7 +17,7 @@ font-family: 'Raleway', sans-serif; */
 
 .all-center {
   display: flex;
-  justify-content: center;
+  justify-content: center;  
   align-items: center;
 }
 
@@ -52,19 +52,54 @@ li {
 
 .rj-hire-btn {
   padding: 12px 24px;
-  background-color: #fff;
-  color: #1c1c1c;
+  background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
+  border-radius: 10px;
+  color: #fff;
 }
 
 .rj-hire-btn:hover {
+  background: -webkit-linear-gradient(105deg,  #c850c0 46%, #4158d0 41%);
+  color: #fff;
   text-decoration: none;
-  color: #1c1c1c;
+
 }
+
+/* +++++ small common button ++++++++++++ */
+.small-cm-btn{
+  padding: 6px 12px;
+  background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
+  color: #fff;
+  border: none;
+  outline: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) .3s ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.small-cm-btn:focus{
+  border: none;
+  outline: none;
+}
+
+.small-cm-btn:hover{
+  background: -webkit-linear-gradient(105deg,  #c850c0 46%, #4158d0 41%);
+}
+
+/* +++++ small common button ++++++++++++ */
+
 
 .main-heading {
   text-align: center;
   font-size: 36px;
   background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.small-heading{
+  font-size: 22px;
+  background: -webkit-linear-gradient(99deg, #4158d0 70%, #c850c0 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
