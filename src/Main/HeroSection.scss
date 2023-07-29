@@ -1,6 +1,8 @@
+@import "../CommonCss.scss";
+
 .hero-section {
   min-height: calc(90vh - 60px);
-  background-color: #fff;
+  background-color: $white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 25px;
@@ -11,9 +13,9 @@
 
     .content {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: flex-start;
+      flex-direction: column;
       font-family: "Raleway", sans-serif;
       .subject {
         font-size: 26px;
@@ -27,7 +29,7 @@
         font-weight: 600;
         line-height: 60px;
         margin-bottom: 0px;
-        background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
+        background: $mainGradient;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         .sub-heading {
@@ -41,16 +43,14 @@
       .more-about-btn {
         padding: 15px 30px;
         background-color: rgb(15, 98, 254);
-        color: #fff;
+        color: $white;
         border-radius: 12px;
       }
     }
   }
 
   .right-part {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    @include all-center;
     .profile-box {
       height: 40vw;
       width: 40vw;

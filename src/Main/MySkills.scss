@@ -1,5 +1,7 @@
+@import "../CommonCss.scss";
+
 .skill-section {
-  background-color: #fff;
+  background-color: $white;
   .skills-item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -11,9 +13,7 @@
       border-radius: 50%;
       border: 1px solid red;
       padding: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include all-center;
       margin: auto;
       flex-direction: column;
       gap: 5px;
