@@ -4,6 +4,7 @@ import MySkills from "./MySkills"
 import WorkExperience from "./WorkExperience"
 import Footer from "../component/Footer"
 import Certification from "./Certification"
+import StarEffect from "../component/StarEffect"
 
 const MainPage = () => {
   return (
