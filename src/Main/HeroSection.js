@@ -6,6 +6,11 @@ import { Link } from "react-router-dom"
 const HeroSection = () => {
   return (
     <div className="hero-section">
+      <div className="first-circle">
+      </div>
+      <div className="second-circle">
+      </div>
+      <div className="third-circle"></div>
       <div className="left-part">
         <div className="content">
           <h3 className="subject">Welcome to Amazing Place</h3>
