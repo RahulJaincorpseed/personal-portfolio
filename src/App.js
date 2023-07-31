@@ -1,10 +1,9 @@
-import './App.css';
-import HeroSection from './Main/HeroSection';
-import MainPage from './Main/MainPage';
-import Footer from './component/Footer';
-import Navbar from './component/Navbar';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
+import "./App.css"
+import HeroSection from "./Main/HeroSection"
+import MainPage from "./Main/MainPage"
+import Footer from "./component/Footer"
+import Navbar from "./component/Navbar"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 function App() {
   return (
@@ -15,9 +14,9 @@ function App() {
           <Route path="/" element={<MainPage />} />
         </Routes>
         <Footer />
-      </BrowserRouter>  
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -13,15 +13,15 @@ font-family: 'Raleway', sans-serif; */
 
 /* font-family: 'Tajawal', sans-serif; */
 
-body{
- font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
 }
 
 /* ++++++++++++ common classes  ++++++++++++++ */
 
 .all-center {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
 }
 
@@ -62,37 +62,35 @@ li {
 }
 
 .rj-hire-btn:hover {
-  background: -webkit-linear-gradient(105deg,  #c850c0 46%, #4158d0 41%);
+  background: -webkit-linear-gradient(105deg, #c850c0 46%, #4158d0 41%);
   color: #fff;
   text-decoration: none;
-
 }
 
 /* +++++ small common button ++++++++++++ */
-.small-cm-btn{
+.small-cm-btn {
   padding: 6px 12px;
   background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
   color: #fff;
   border: none;
   outline: none;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) .3s ease-in-out;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s ease-in-out;
   cursor: pointer;
   border-radius: 10px;
 }
 
-.small-cm-btn:focus{
+.small-cm-btn:focus {
   border: none;
   outline: none;
 }
 
-.small-cm-btn:hover{
-  background: -webkit-linear-gradient(105deg,  #c850c0 46%, #4158d0 41%);
+.small-cm-btn:hover {
+  background: -webkit-linear-gradient(105deg, #c850c0 46%, #4158d0 41%);
   color: #fff;
   text-decoration: none;
 }
 
 /* +++++ small common button ++++++++++++ */
-
 
 .main-heading {
   text-align: center;
@@ -103,8 +101,7 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-
-.small-heading{
+.small-heading {
   font-size: 22px;
   font-weight: 600;
   background: -webkit-linear-gradient(99deg, #4158d0 70%, #c850c0 60%);
@@ -112,24 +109,22 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
-
-
 /* common circle code */
 
-.first-circle{
+.first-circle {
   position: absolute;
   height: 30px;
   width: 30px;
   border-radius: 50%;
   top: 20%;
   left: 30%;
-  box-shadow: 0 10px 20px rgba(0,0,0,.2);
-  background: #36D1DC;  
-  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  
-  background: linear-gradient(to right, #5B86E5, #36D1DC); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: #36d1dc;
+  background: -webkit-linear-gradient(to right, #5b86e5, #36d1dc);
+  background: linear-gradient(to right, #5b86e5, #36d1dc);
 }
 
-.second-circle{
+.second-circle {
   position: absolute;
   height: 120px;
   width: 120px;
@@ -137,13 +132,13 @@ li {
   top: 68%;
   left: 30%;
   z-index: 1;
-  box-shadow: 0 10px 20px rgba(0,0,0,.2);
-  background: #7F00FF;  
-  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
-  background: linear-gradient(to right, #E100FF, #7F00FF);   
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: #7f00ff;
+  background: -webkit-linear-gradient(to right, #e100ff, #7f00ff);
+  background: linear-gradient(to right, #e100ff, #7f00ff);
 }
 
-.third-circle{
+.third-circle {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -151,8 +146,8 @@ li {
   top: 12%;
   right: 20%;
   z-index: 1;
-  box-shadow: 0 10px 20px rgba(0,0,0,.2);
-  background: #36D1DC;  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: #36d1dc;
   background: -webkit-linear-gradient(105deg, #4158d0 44%, #c850c0 46%);
-  background: linear-gradient(105deg, #4158d0 44%, #c850c0 46%); 
+  background: linear-gradient(105deg, #4158d0 44%, #c850c0 46%);
 }

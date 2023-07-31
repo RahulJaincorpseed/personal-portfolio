@@ -10,14 +10,14 @@ const ContactUs = () => {
         <div id="stars2"></div>
         <div id="stars3"></div>
         <div className="my-content content">
-          <h3 className="contact-heading">Contact Us</h3>    
+          <h3 className="contact-heading">Contact Us</h3>
         </div>
       </div>
       <div className="contact-right">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
-  
+
         <div className="my-content">
           <h3 className="contact-heading">Get In Touch</h3>
           <p className="contact-desc">Feel Free to drop a message</p>
