@@ -81,8 +81,12 @@
           font-weight: 400;
           font-size: 18px;
           margin-bottom: 0px;
-          &:hover{
-            background: -webkit-linear-gradient(99deg, #4158d0 70%, #c850c0 60%);
+          &:hover {
+            background: -webkit-linear-gradient(
+              99deg,
+              #4158d0 70%,
+              #c850c0 60%
+            );
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
