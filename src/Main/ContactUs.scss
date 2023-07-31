@@ -1,0 +1,20 @@
+.contact-us{
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    .contact-left{
+        padding: 50px 20px;
+        border: 1px solid red;
+        flex: 1;
+        position: relative;
+        left: 50px;
+        background: -webkit-linear-gradient(50deg, #4158d0 49%, #c850c0 56%);
+        height: 500px;
+    }
+    .contact-right{
+        padding: 20px;
+        border: 1px solid blue;
+        flex: 1;
+
+    }
+}
