@@ -4,21 +4,20 @@ import { Link } from "react-router-dom"
 
 const ContactUs = () => {
   return (
-    <div className="contact-us section-padding">
-      <div className="contact-left star-effect">
-        <h3>Contact Us</h3>
+    <div className="contact-us section-padding star-effect">
+      <div className="contact-left">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
-        <div className="my-content">
-          <h3 className="main-heading">My Experience</h3>
-          <h3>My data</h3>
+        <div className="my-content content">
+          <h3 className="contact-heading">Contact Us</h3>    
         </div>
       </div>
-      <div className="contact-right star-effect">
+      <div className="contact-right">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
+  
         <div className="my-content">
           <h3 className="contact-heading">Get In Touch</h3>
           <p className="contact-desc">Feel Free to drop a message</p>

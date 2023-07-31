@@ -116,17 +116,26 @@
     padding-right: 25px;
     display: flex;
     .contact-left{
-        padding: 50px 20px;
-        border: 1px solid red;
+        padding: 20px;
         flex: 1;
         position: relative;
         left: 50px;
-        background: -webkit-linear-gradient(50deg, #4158d0 49%, #c850c0 56%);
-        height: 500px;
+      .content{
+        color: #fff;
+        .contact-heading{
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 35px;
+        }
+        // width: 340px;
+        
+      }  
     }
     .contact-right{
         padding: 20px;
         flex: 1;
+        z-index: 20;
+    
         .my-content{
             .contact-heading{
                 color: #fff;
