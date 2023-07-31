@@ -6,11 +6,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 25px;
+  position: relative;
   .left-part {
     display: grid;
     align-items: center;
     padding: 20px;
-
+    z-index: 10;
     .content { 
       display: flex;
       justify-content: center;
@@ -51,6 +52,7 @@
 
   .right-part {
     @include all-center;
+    z-index: 10;
     .profile-box {
       height: 40vw;
       width: 40vw;

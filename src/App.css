@@ -111,3 +111,48 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+/* common circle code */
+
+.first-circle{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  top: 20%;
+  left: 30%;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  background: #36D1DC;  
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  
+  background: linear-gradient(to right, #5B86E5, #36D1DC); 
+}
+
+.second-circle{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  top: 68%;
+  left: 30%;
+  z-index: 1;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  background: #7F00FF;  
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+  background: linear-gradient(to right, #E100FF, #7F00FF);   
+}
+
+.third-circle{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  top: 12%;
+  right: 20%;
+  z-index: 1;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  background: #36D1DC;  
+  background: -webkit-linear-gradient(105deg, #4158d0 44%, #c850c0 46%);
+  background: linear-gradient(105deg, #4158d0 44%, #c850c0 46%); 
+}
