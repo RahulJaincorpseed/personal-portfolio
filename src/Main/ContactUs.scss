@@ -167,3 +167,17 @@ $shadows-big: multiple-box-shadow(100);
     }
   }
 }
+
+
+@media only screen and (max-width: 768px){
+  .contact-us {
+  
+    flex-direction: column;
+    .contact-left {
+      left: 0;
+    }   
+    .contact-right {
+      min-height: 600px;
+    }   
+  }
+}
