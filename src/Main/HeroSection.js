@@ -7,8 +7,7 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <div className="first-circle"></div>
-      <div className="second-circle"></div>
-      <div className="third-circle"></div>
+      
       <div className="left-part">
         <div className="content">
           <h3 className="subject">Welcome to Amazing Place</h3>
@@ -23,7 +22,7 @@ const HeroSection = () => {
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-          <Link className="more-about-btn">
+          <Link className="small-cm-btn cm-large">
             More About Me<i className="fa-solid ml-2 fa-chevron-right"></i>
           </Link>
         </div>

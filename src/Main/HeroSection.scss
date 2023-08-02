@@ -52,7 +52,8 @@
 
   .right-part {
     @include all-center;
-    z-index: 10;
+    z-index: 100;
+    position: relative;
     .profile-box {
       height: 40vw;
       width: 40vw;
@@ -87,12 +88,54 @@
 @media only screen and (max-width: 992px){
   .hero-section{
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
+
+@media only screen and (max-width: 768px){
+  .hero-section{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    .right-part {
+      .profile-box {
+        height: 50vw;
+        width: 50vw;
+        position: relative;
+        left: 30px;
+        .profile-image {
+          height: 50vw;
+          width: 50vw;
+          border-radius: 50%;
+          overflow: hidden;
+          border-radius: 50%;
+          box-shadow: 0 0 30px #ebe6e6;
+          img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+        .blob-image {
+          bottom: 20px;
+          z-index: 20;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          bottom: -20vw;
+        }
+      }
+    }
+    
+
+  }
+}
+
+
 
 @media only screen and (max-width: 576px){
   .hero-section{
     grid-template-columns: 1fr;
+    padding-bottom: 30px;
     .left-part {
       padding: 0px;
       .content {
