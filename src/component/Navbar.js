@@ -1,15 +1,35 @@
-import React from "react"
+import React, { useRef } from "react"
 import { Link, NavLink } from "react-router-dom"
 import "./Navbar.scss"
 
 const Navbar = () => {
+
+  const navBar = useRef();
+
+
+  const tabChange = () =>{
+    if( navBar.current.style.height == 'auto'){
+      navBar.current.style.height = '60px'   
+    }
+    else{
+      navBar.current.style.height = 'auto';
+
+    }
+  } 
+
   return (
-    <nav className="rj-navbar all-between">
+    <nav ref={navBar} className="rj-navbar all-between">
       <div className="rj-logo all-center">
-        <i class="fa-brands fa-codiepie"></i>
+        <i className="fa-brands fa-codiepie"></i>
         <span>RJ</span>
       </div>
-      <div>
+      <div className="toggle-btn" onClick={tabChange}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+     
+      </div>
+      <div className="res-width">
         <ul className="rj-links all-center">
           <li>
             <NavLink
@@ -58,7 +78,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div>
+      <div className="res-nav">
         <Link className="rj-hire-btn">Hire Me</Link>
       </div>
     </nav>

@@ -24,7 +24,7 @@ const HeroSection = () => {
             PageMaker including versions of Lorem Ipsum.
           </p>
           <Link className="more-about-btn">
-            More About Me<i class="fa-solid ml-2 fa-chevron-right"></i>
+            More About Me<i className="fa-solid ml-2 fa-chevron-right"></i>
           </Link>
         </div>
       </div>

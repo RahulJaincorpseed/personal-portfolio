@@ -11,42 +11,42 @@ const MySkills = () => {
         <h3 className="main-heading">My Skills</h3>
         <div className="skills-item">
           {/* <div className="ball-item">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
             <p>Github</p>
           </div> */}
           <OwlCarousel items={7} loop={true} margin={8} autoplay ={true}  autoplayTimeout={1000}
              className="owl-theme" 
           >
           <div className="ball-item">
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
             <p className="skill-heading">Github</p>
           </div>
           <div className="ball-item">
-          <i class="fa-brands js-icon fa-js"></i>
+          <i className="fa-brands js-icon fa-js"></i>
           <p className="skill-heading">JavaScript</p>
           </div>
           <div className="ball-item">
-          <i class="fa-brands html-icon fa-html5"></i>
+          <i className="fa-brands html-icon fa-html5"></i>
           <p className="skill-heading">HTML</p>
           
           </div>
           <div className="ball-item">
-          <i class="fa-brands css-icon fa-css3"></i>
+          <i className="fa-brands css-icon fa-css3"></i>
           <p className="skill-heading">CSS</p>
        
           </div>
           <div className="ball-item">
-          <i class="fa-brands react-icon fa-react"></i>
+          <i className="fa-brands react-icon fa-react"></i>
           <p className="skill-heading">ReactJS</p>
        
           </div>
           <div className="ball-item">
-          <i class="fa-brands bootstrap-icon fa-bootstrap"></i>
+          <i className="fa-brands bootstrap-icon fa-bootstrap"></i>
           <p className="skill-heading">Bootstrap</p>
         
           </div>
           <div className="ball-item">
-          <i class="fa-brands sass-icon fa-sass"></i>
+          <i className="fa-brands sass-icon fa-sass"></i>
             <p className="skill-heading">Sass/Scss</p>
         
           </div>
