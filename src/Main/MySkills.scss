@@ -3,10 +3,10 @@
 .skill-section {
   background-color: $white;
   .skills-item {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
     padding: 40px 25px;
-    gap: 30px;
+    gap: 20px;
     .ball-item {
       height: 130px;
       width: 130px;

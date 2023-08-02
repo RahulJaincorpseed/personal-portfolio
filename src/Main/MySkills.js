@@ -1,8 +1,8 @@
 import React from "react"
 import "./MySkills.scss"
-import OwlCarousel from 'react-owl-carousel';  
-import 'owl.carousel/dist/assets/owl.carousel.css';  
-import 'owl.carousel/dist/assets/owl.theme.default.css'; 
+// import OwlCarousel from 'react-owl-carousel';  
+// import 'owl.carousel/dist/assets/owl.carousel.css';  
+// import 'owl.carousel/dist/assets/owl.theme.default.css'; 
 
 const MySkills = () => {
   return (
@@ -14,9 +14,6 @@ const MySkills = () => {
             <i className="fa-brands fa-github"></i>
             <p>Github</p>
           </div> */}
-          <OwlCarousel items={7} loop={true} margin={8} autoplay ={true}  autoplayTimeout={1000}
-             className="owl-theme" 
-          >
           <div className="ball-item">
           <i className="fa-brands fa-github"></i>
             <p className="skill-heading">Github</p>
@@ -51,7 +48,6 @@ const MySkills = () => {
         
           </div>
 
-          </OwlCarousel>
         </div>
       </div>
     </div>
