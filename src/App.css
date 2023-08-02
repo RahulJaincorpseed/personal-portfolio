@@ -91,6 +91,12 @@ li {
   text-decoration: none;
 }
 
+
+
+.our-container{
+  max-width: 1500px;
+}
+
 /* +++++ small common button ++++++++++++ */
 
 .main-heading {
@@ -151,4 +157,19 @@ li {
   background: #36d1dc;
   background: -webkit-linear-gradient(105deg, #4158d0 44%, #c850c0 46%);
   background: linear-gradient(105deg, #4158d0 44%, #c850c0 46%);
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+  .section-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
