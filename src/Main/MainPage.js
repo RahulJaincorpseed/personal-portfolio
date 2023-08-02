@@ -10,8 +10,8 @@ import ContactUs from "./ContactUs"
 const MainPage = () => {
   return (
     <div>
-      {/* <HeroSection />
       <MySkills />
+      {/* <HeroSection />
       <WorkExperience />
       <Certification /> */}
       {/* <ContactUs /> */}
