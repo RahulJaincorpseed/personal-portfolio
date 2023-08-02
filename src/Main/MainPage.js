@@ -12,10 +12,10 @@ const MainPage = () => {
     <div>
       <HeroSection />
       <MySkills />
-      {/* 
       <WorkExperience />
-      <Certification /> */}
-      {/* <ContactUs /> */}
+      <Certification />
+      <ContactUs />
+      
     </div>
   )
 }
