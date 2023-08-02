@@ -96,8 +96,20 @@
   }
 }
 
+
+@media only screen and (max-width: 992px){
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    .links{
+      padding-left: 10px;
+    }
+  }
+}
+
 @media only screen and (max-width: 768px){
   .footer {
     grid-template-columns: 1fr;
+    gap: 0px;
   }
 }
