@@ -4,14 +4,13 @@
   background-color: $white;
   .skills-item {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 40px 25px;
     gap: 30px;
     .ball-item {
       height: 130px;
       width: 130px;
       border-radius: 50%;
-      border: 1px solid red;
       padding: 30px;
       @include all-center;
       margin: auto;
@@ -19,6 +18,31 @@
       gap: 5px;
       i {
         font-size: 50px;
+      }
+      .js-icon{
+        color: #dd9c24;
+      }
+      .html-icon{
+        color: #dd4b25
+      }
+      .css-icon{
+        color: #1190cd;
+      }
+      .react-icon{
+        color: #5ed3f3;
+      }
+      .bootstrap-icon{
+        color: #7410f0;
+      }
+      .sass-icon{
+        color: #c76494;
+      }
+      .skill-heading{
+        font-size: 22px;
+        font-weight: 600;
+        background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
       // rgba(65, 88, 208, 1)
       // rgba(200, 80, 192, 1)
