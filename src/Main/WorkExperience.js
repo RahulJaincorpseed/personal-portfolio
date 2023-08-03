@@ -21,9 +21,18 @@ const WorkExperience = () => {
           <ExperienceCard leftCard={leftCard} />
         </div>
         <div className="letter-height">
-          <div className="circle-experience"></div>
+          <div className="circle-experience">
+          <div className="connecting-line"></div>
+          </div>
           <ExperienceCard />
         </div>
+        <div className="letter-height">
+          <div className="circle-experience">
+            <div className="connecting-line"></div>
+          </div>
+          <ExperienceCard leftCard={leftCard} />
+        </div>
+
       </div>
     </div>
   )
