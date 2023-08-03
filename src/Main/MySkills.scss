@@ -2,6 +2,25 @@
 
 .skill-section {
   background-color: $white;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    top: 0;
+    height: 8%;
+    left: 50%;
+    background: linear-gradient(#00ccff, #d400d4);
+    animation: animate 5s linear infinite;
+}
+&::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: transparent;
+    border-radius: 20px;
+}
+
   .skills-item {
     display: flex;
     flex-wrap: wrap;
@@ -48,3 +67,13 @@
     }
   }
 }
+
+@keyframes animate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
