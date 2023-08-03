@@ -9,7 +9,7 @@
     .icon {
       i {
         font-size: 22px;
-        color: #fff !important;
+        color: #fff;
       }
       p {
         color: #fff;
@@ -25,3 +25,16 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 600px){
+    .footer {
+      padding-left: 10px;
+      padding-right: 10px;  
+      .social{
+        .social-icons{
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }

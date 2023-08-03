@@ -59,3 +59,27 @@
   }
 }
 
+
+@media only screen and (max-width: 768px){
+
+  .work-experience {
+    .experience-section {
+      .letter-height {
+        .circle-experience {
+          .connecting-line {
+            height: 250px;
+            width: 2px;
+            position: absolute;
+            background: $mainGradient;
+            top: 30px;
+            left: 50%;
+          }
+        }
+      }
+    }
+  }
+  
+
+
+}
+
