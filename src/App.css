@@ -80,7 +80,7 @@ li {
   border-radius: 10px;
 }
 
-.cm-large{
+.cm-large {
   padding: 12px 24px;
 }
 
@@ -95,9 +95,7 @@ li {
   text-decoration: none;
 }
 
-
-
-.our-container{
+.our-container {
   max-width: 1500px;
 }
 
@@ -135,32 +133,17 @@ li {
   background: linear-gradient(to right, #5b86e5, #36d1dc);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .third-circle {
     display: none;
   }
-  .second-circle{
+  .second-circle {
     display: none;
   }
 }
 
-
-
-
-
-@media only screen and (max-width: 600px){
-  .section-padding{
+@media only screen and (max-width: 600px) {
+  .section-padding {
     padding-left: 20px;
     padding-right: 20px;
   }

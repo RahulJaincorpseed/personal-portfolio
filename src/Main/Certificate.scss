@@ -11,14 +11,14 @@
     left: 50%;
     background: linear-gradient(#00ccff, #d400d4);
     animation: animate 5s linear infinite;
-}
-&::after {
+  }
+  &::after {
     content: "";
     position: absolute;
     inset: 4px;
     background: transparent;
     border-radius: 20px;
-}
+  }
   .card-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -29,15 +29,14 @@
 
 @keyframes animate {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
-
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px) {
   .certificate {
     .card-box {
       grid-template-columns: 1fr 1fr;
@@ -46,8 +45,7 @@
   }
 }
 
-
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .certificate {
     .card-box {
       grid-template-columns: 1fr 1fr;
@@ -55,10 +53,10 @@
   }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .certificate {
     .card-box {
       grid-template-columns: 1fr;
-     }
+    }
   }
 }

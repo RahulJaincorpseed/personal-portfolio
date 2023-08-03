@@ -84,16 +84,15 @@
   }
 }
 
-
-@media only screen and (max-width: 992px){
-  .hero-section{
+@media only screen and (max-width: 992px) {
+  .hero-section {
     grid-template-columns: 1fr;
     gap: 20px;
   }
 }
 
-@media only screen and (max-width: 768px){
-  .hero-section{
+@media only screen and (max-width: 768px) {
+  .hero-section {
     grid-template-columns: 1fr;
     gap: 20px;
     .right-part {
@@ -125,15 +124,11 @@
         }
       }
     }
-    
-
   }
 }
 
-
-
-@media only screen and (max-width: 576px){
-  .hero-section{
+@media only screen and (max-width: 576px) {
+  .hero-section {
     grid-template-columns: 1fr;
     padding-bottom: 30px;
     .left-part {
@@ -153,7 +148,6 @@
           font-size: 16px;
         }
       }
-    }  
+    }
   }
 }
-
