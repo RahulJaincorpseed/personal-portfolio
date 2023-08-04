@@ -1,4 +1,5 @@
 import "./App.css"
+import ArticleHomePage from "./Articles/ArticleHomePage"
 import ContactUs from "./Main/ContactUs"
 import HeroSection from "./Main/HeroSection"
 import MainPage from "./Main/MainPage"
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/articles" element={<ArticleHomePage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
