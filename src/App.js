@@ -1,4 +1,5 @@
 import "./App.css"
+import ContactUs from "./Main/ContactUs"
 import HeroSection from "./Main/HeroSection"
 import MainPage from "./Main/MainPage"
 import Footer from "./component/Footer"
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
         <Footer />
       </BrowserRouter>
