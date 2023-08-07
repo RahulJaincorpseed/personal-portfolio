@@ -10,6 +10,9 @@ const Certification = () => {
         <CertificateCard />
         <CertificateCard />
         <CertificateCard />
+        <CertificateCard />
+        <CertificateCard />
+        <CertificateCard />
       </div>
     </div>
   )
