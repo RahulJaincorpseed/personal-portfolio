@@ -14,19 +14,19 @@ const ContactUs = () => {
           <h3 className="contact-heading">Contact Us</h3>
           <div className="contact-option">
             <div className="options">
-              <i class="fa-regular mr-2 fa-envelope"></i>
+              <i className="fa-regular mr-2 fa-envelope"></i>
               <span>rahul@jain@gmail.com</span>
             </div>
             <div className="options">
-              <i class="fa-regular mr-2 fa-address-book"></i>
+              <i className="fa-regular mr-2 fa-address-book"></i>
               <span>544, moh kalyan singh noida sector 62</span>
             </div>
             <div className="options">
-              <i class="fa-solid mr-2 fa-phone"></i>
+              <i className="fa-solid mr-2 fa-phone"></i>
               <span className="mobile">7598762836</span>
             </div>
             <div className="options">
-              <i class="fa-regular mr-2 fa-clock"></i>
+              <i className="fa-regular mr-2 fa-clock"></i>
               <span>09:00 AM - 06:00 PM</span>
             </div>
           </div>
