@@ -18,6 +18,13 @@ body {
   overflow-x: hidden;
 }
 
+:root{
+  --main-gradient: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
+  --main-hover-gradient: -webkit-linear-gradient(105deg, #c850c0 41%, #4158d0 46%);
+  --white: #ffffff;
+  --black: #000000;
+}
+
 /* ++++++++++++ common classes  ++++++++++++++ */
 
 .all-center {
@@ -57,22 +64,22 @@ li {
 
 .rj-hire-btn {
   padding: 12px 24px;
-  background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
+  background: var(--main-gradient);
   border-radius: 10px;
-  color: #fff;
+  color: var(--white);
 }
 
 .rj-hire-btn:hover {
-  background: -webkit-linear-gradient(105deg, #c850c0 46%, #4158d0 41%);
-  color: #fff;
+  background:  var(--main-hover-gradient);
+  color: var(--white);
   text-decoration: none;
 }
 
 /* +++++ small common button ++++++++++++ */
 .small-cm-btn {
   padding: 6px 12px;
-  background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
-  color: #fff;
+  background: var(--main-gradient);
+  color: var(--white);
   border: none;
   outline: none;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s ease-in-out;
@@ -90,8 +97,8 @@ li {
 }
 
 .small-cm-btn:hover {
-  background: -webkit-linear-gradient(105deg, #c850c0 46%, #4158d0 41%);
-  color: #fff;
+  background: var(--main-hover-gradient);
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -105,7 +112,7 @@ li {
   text-align: center;
   font-size: 36px;
   font-weight: 600;
-  background: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
+  background: var(--main-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -113,7 +120,7 @@ li {
 .small-heading {
   font-size: 22px;
   font-weight: 600;
-  background: -webkit-linear-gradient(99deg, #4158d0 70%, #c850c0 60%);
+  background: var(--main-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
