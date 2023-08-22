@@ -3,19 +3,15 @@ import { Link, NavLink } from "react-router-dom"
 import "./Navbar.scss"
 
 const Navbar = () => {
+  const navBar = useRef()
 
-  const navBar = useRef();
-
-
-  const tabChange = () =>{
-    if( navBar.current.style.height == 'auto'){
-      navBar.current.style.height = '60px'   
+  const tabChange = () => {
+    if (navBar.current.style.height === "auto") {
+      navBar.current.style.height = "60px"
+    } else {
+      navBar.current.style.height = "auto"
     }
-    else{
-      navBar.current.style.height = 'auto';
-
-    }
-  } 
+  }
 
   return (
     <nav ref={navBar} className="rj-navbar all-between">
@@ -27,7 +23,6 @@ const Navbar = () => {
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
-     
       </div>
       <div className="res-width">
         <ul className="rj-links all-center">

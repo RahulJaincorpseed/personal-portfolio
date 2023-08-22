@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <div className="first-circle"></div>
-      
+
       <div className="left-part">
         <div className="content">
           <h3 className="subject">Welcome to Amazing Place</h3>
@@ -30,7 +30,7 @@ const HeroSection = () => {
       <div className="right-part">
         <div className="profile-box">
           <div className="profile-image">
-            <img src={Profile} alt="profile-image" />
+            <img src={Profile} alt="profile-data" />
           </div>
           <div className="blob-image">
             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
