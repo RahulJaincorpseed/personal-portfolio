@@ -18,9 +18,13 @@ body {
   overflow-x: hidden;
 }
 
-:root{
+:root {
   --main-gradient: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
-  --main-hover-gradient: -webkit-linear-gradient(105deg, #c850c0 41%, #4158d0 46%);
+  --main-hover-gradient: -webkit-linear-gradient(
+    105deg,
+    #c850c0 41%,
+    #4158d0 46%
+  );
   --white: #ffffff;
   --black: #000000;
 }
@@ -70,7 +74,7 @@ li {
 }
 
 .rj-hire-btn:hover {
-  background:  var(--main-hover-gradient);
+  background: var(--main-hover-gradient);
   color: var(--white);
   text-decoration: none;
 }
@@ -138,6 +142,31 @@ li {
   background: #36d1dc;
   background: -webkit-linear-gradient(to right, #5b86e5, #36d1dc);
   background: linear-gradient(to right, #5b86e5, #36d1dc);
+}
+
+/* login button */
+
+.login-btn {
+  padding: 12px 24px;
+  background: var(--main-gradient);
+  border-radius: 10px;
+  color: var(--white);
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: var(--main-hover-gradient);
+}
+
+.login-btn:focus {
+  outline: none;
 }
 
 @media only screen and (max-width: 768px) {
