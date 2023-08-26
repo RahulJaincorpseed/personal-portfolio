@@ -1,6 +1,8 @@
 import React from "react"
 import "./LoginPage.scss"
 import InputComponent from "./InputComponent"
+import { Link } from "react-router-dom"
+
 
 const SignupPage = () => {
   return (
@@ -38,6 +40,7 @@ const SignupPage = () => {
           />
         </div>
         <button className="login-btn">Sign Up</button>
+        <p className="account-not">Already have an Account <Link className="going-link" to="/login">Login</Link></p>
       </div>
     </div>
   )

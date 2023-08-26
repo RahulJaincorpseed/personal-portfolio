@@ -102,6 +102,29 @@
     text-align: center;
     border-radius: 20px;
     z-index: 99;
+    .forget-pass{
+      font-size: 15px;
+      font-weight: 700;
+      color: #c850c0;
+      display: block;
+      padding-top: 25px;
+      &:hover{
+        text-decoration: none;
+      }
+      
+    }
+    .account-not{
+      padding: 15px 0px;
+      font-size: 14px;
+      font-weight: 700;
+      .going-link{
+        color: #4158d0;
+        margin-left: 2px;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
   }
   .main-heading {
     background-color: -webkit-linear-gradient(105deg, #4158d0 41%, #c850c0 46%);
