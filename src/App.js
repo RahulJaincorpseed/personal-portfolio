@@ -12,17 +12,17 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        {/* <Navbar /> */}
-        <Routes>
+        <Navbar />
+        <Routes>  
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactUs />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </div>
   )
 }
-
+// deploy link : https://65dffe17c9dd82affa9a4d60--superb-toffee-8b65b0.netlify.app/
 export default App
