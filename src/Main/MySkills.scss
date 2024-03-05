@@ -66,6 +66,14 @@
   }
 }
 
+@media only screen and (max-width: 576px){
+  .skill-section{
+    .skill-heading {
+      font-size: 18px;
+    }
+  }
+}
+
 @keyframes animate {
   0% {
     transform: rotate(0deg);

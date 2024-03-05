@@ -7,10 +7,10 @@ const LoginPage = () => {
   return (
     <div className="login-page">
       <div className="left-circle">
-        <div className="small-circle">Please Login</div>
+        <div className="small-circle"></div>
       </div>
       <div className="right-circle">
-        <div className="small-circle">Please Login</div>
+        <div className="small-circle"></div>
       </div>
       <div className="ractangle"></div>
       <div className="ractangle-two"></div>

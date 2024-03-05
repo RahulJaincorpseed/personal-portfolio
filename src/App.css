@@ -89,6 +89,7 @@ li {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s ease-in-out;
   cursor: pointer;
   border-radius: 10px;
+  font-size: 14px;
 }
 
 .cm-large {
@@ -182,5 +183,8 @@ li {
   .section-padding {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .main-heading {
+    font-size: 30px;
   }
 }
