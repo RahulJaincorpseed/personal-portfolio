@@ -4,15 +4,17 @@ import MySkills from "./MySkills"
 import WorkExperience from "./WorkExperience"
 import Certification from "./Certification"
 import ContactUs from "./ContactUs"
+import Navbar from "../component/Navbar"
+import Footer from "../component/Footer"
+import { Outlet } from "react-router-dom"
 
 const MainPage = () => {
   return (
     <div>
-      <HeroSection />
-      <MySkills />
-      <WorkExperience />
-      <Certification />
-      <ContactUs />
+      <Navbar />
+      <Outlet />
+     
+      <Footer />
     </div>
   )
 }

@@ -4,7 +4,7 @@ import "./MySkills.scss"
 const MySkills = () => {
   return (
     <div className="skill-section section-padding">
-      <div>
+      <div className="py-5">
         <h3 className="main-heading">My Skills</h3>
         <div className="skills-item">
           <div className="ball-item">

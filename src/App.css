@@ -130,6 +130,12 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
+/* Article code */
+
+.article-layout{
+  padding: 35px;
+}
+
 /* common circle code */
 
 .first-circle {

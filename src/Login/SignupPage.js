@@ -8,10 +8,10 @@ const SignupPage = () => {
   return (
     <div className="login-page">
       <div className="left-circle">
-        <div className="small-circle">Please sign up</div>
+        <div className="small-circle"></div>
       </div>
       <div className="right-circle">
-        <div className="small-circle">Please sign up</div>
+        <div className="small-circle"></div>
       </div>
       <div className="ractangle"></div>
       <div className="ractangle-two"></div>

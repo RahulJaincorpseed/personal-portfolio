@@ -111,13 +111,14 @@
   .footer {
     grid-template-columns: 1fr;
     gap: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
   }
 }
 
 @media only screen and (max-width: 600px) {
   .footer {
-    padding-left: 10px;
-    padding-right: 10px;
     .social {
       .social-icons {
         flex-wrap: wrap;
