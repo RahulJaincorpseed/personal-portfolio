@@ -77,3 +77,20 @@
     }
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .work-experience {
+    .experience-section {
+      gap: 20px;
+      .letter-height {
+        height: auto;
+        .circle-experience {
+          display: none;
+          .connecting-line {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
